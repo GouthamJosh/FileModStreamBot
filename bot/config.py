@@ -1,17 +1,17 @@
 from os import environ as env
 
 class Telegram:
-    API_ID = int(env.get("TELEGRAM_API_ID", 1234))
-    API_HASH = env.get("TELEGRAM_API_HASH", "xyz")
-    OWNER_ID = int(env.get("OWNER_ID", 1234567890))
+    API_ID = int(env.get("TELEGRAM_API_ID", 18979569))
+    API_HASH = env.get("TELEGRAM_API_HASH", "45db354387b8122bdf6c1b0beef93743")
+    OWNER_ID = int(env.get("OWNER_ID", 6108995220))
     ALLOWED_USER_IDS = env.get("ALLOWED_USER_IDS", "").split()
-    BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "BotFather")
-    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "1234:abcd")
-    CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", -1001234567890))
+    BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "l2leech_bot")
+    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "8559651884:AAGr6mN33r_4RxJNWdjuk38xvV8IuviQ6ME")
+    CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", -1002436768225))
     SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 12))
 
 class Server:
-    BASE_URL = env.get("BASE_URL", "http://127.0.0.1:8080")
+    BASE_URL = env.get("BASE_URL", "https://ubiquitous-rotary-phone-6x99gjqrgpxcr6v4-8080.app.github.dev/")
     BIND_ADDRESS = env.get("BIND_ADDRESS", "0.0.0.0")
     PORT = int(env.get("PORT", 8080))
 
